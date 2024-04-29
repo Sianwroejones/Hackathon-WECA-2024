@@ -31,6 +31,14 @@
 .navbar ul li a:hover {
     color: rgba(225, 198, 210, 1);
 }
+/*-----------------------------------------------carousel*/
+.carousel-item {
+    height: 100vh;
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+}
+
 /*-----------------------------------------------footer*/
 html,body {
     height: 100%;
@@ -47,13 +55,11 @@ body {
     padding: 60px;
     margin-top: auto;
 }
-.footer 
-.social-icons {
+.footer .social-icons {
     text-align: center;
     margin-bottom: 20px;
 }
-.footer 
-.social-icons a {
+.footer .social-icons a {
     color: #fafafa;
     font-size: 36px;
     margin-right: 6cm;
@@ -66,8 +72,7 @@ body {
     border-radius: 50%;
 }
 
-.footer 
-.social-icons a:before {
+.footer .social-icons a:before {
     content: "";
     position: absolute;
     top: 0;
@@ -79,21 +84,18 @@ body {
     transition: background-color 0.3s ease;
 }
 
-.footer 
-.social-icons a:hover {
+.footer .social-icons a:hover {
     background-color: rgba(225, 198, 210, 1);
 }
 
-.footer
-.social-icons a i {
+.footer .social-icons a i {
     position: relative;
     z-index: 1;
 }
 .footer .social-icons a:last-child {
     margin-right: 0;
 }
-footer
-.copyright {
+footer .copyright {
     text-align: center;
     font-size: 16px;
 }
