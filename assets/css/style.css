@@ -1,4 +1,4 @@
-/*--------------------------------------------------header/logo*/
+ /*--------------------------------------------------header/logo*/
 .header {
     display: flex;
     justify-content: space-between;
@@ -9,6 +9,7 @@
 .logo img {
     max-height: 50px;
 }
+/*----------------------------------------------------navbar*/
 .navbar ul {
     list-style-type: none;
     margin: 0;
@@ -34,11 +35,18 @@
 /*-----------------------------------------------carousel*/
 .carousel-item {
     height: 100vh;
-    height: 700px;
+    height: 800px;
     background-size: cover;
     background-position: center;
 }
+#carouselexampleIndicators {
+    margin-bottom: 30px;
+}
 
+/*-----------------------------------------------About*/
+.about-section {
+    margin-bottom: 30px;
+}
 /*-----------------------------------------------footer*/
 html,body {
     height: 100%;
@@ -54,15 +62,16 @@ body {
     color: #fafafa;
     padding: 60px;
     margin-top: auto;
+    
 }
-.footer .social-icons {
+.social-icons {
     text-align: center;
     margin-bottom: 20px;
 }
-.footer .social-icons a {
+.social-icons a {
     color: #fafafa;
     font-size: 36px;
-    margin-right: 6cm;
+    margin-right: 200px;
     display: inline-block;
     position: relative;
     text-align: center;
@@ -72,7 +81,7 @@ body {
     border-radius: 50%;
 }
 
-.footer .social-icons a:before {
+.social-icons a:before {
     content: "";
     position: absolute;
     top: 0;
@@ -83,19 +92,28 @@ body {
     border-radius: 50%;
     transition: background-color 0.3s ease;
 }
-
-.footer .social-icons a:hover {
+.social-icons a:hover {
     background-color: rgba(225, 198, 210, 1);
 }
-
-.footer .social-icons a i {
+.social-icons a i {
     position: relative;
     z-index: 1;
 }
-.footer .social-icons a:last-child {
+.social-icons a:last-child {
     margin-right: 0;
 }
-footer .copyright {
+.copyright {
     text-align: center;
     font-size: 16px;
+}
+
+@media only screen and (max-width: 767px){
+    .social-icons {
+        display: flex;
+        justify-content: center;
+    }
+    .social-icons a {
+        font-size: 24px;
+        margin: 0 10px;
+    }
 }
