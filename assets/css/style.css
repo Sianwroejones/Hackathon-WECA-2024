@@ -43,7 +43,7 @@
 /*-----------------------------------------------carousel*/
 .carousel-item {
     height: 100vh;
-    height: 760px;
+    height: 800px;
     background-size: cover;
     background-position: center;
 }
@@ -140,6 +140,10 @@ body {
         font-size: 24px;
         margin: 0 10px;
     }
+    .carousel-item {
+        height: 100vh;
+        height: 660px;
+    }
 }
 /*-----------------------------------------------media query ipad*/
 
@@ -154,6 +158,12 @@ body {
         margin: 0 10px;
     }
     
+}
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+    .col-md-4 {
+        width: 100%;
+        margin-right: 0;
+    }  
 }
 
 
