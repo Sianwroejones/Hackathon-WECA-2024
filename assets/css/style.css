@@ -156,4 +156,30 @@ body {
     
 }
 
+/*-----------------------------------------------gallery page */
+
+. image {
+    width: 100%
+    height: 100%
+}
+. heading {
+    background-color: #E1C6D2;
+}
+
+.enquiries { 
+   padding-bottom: 40px; 
+   padding-top: 0px;
+}
+
+.bg-colour {
+    background-color: #E1C6D2;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 100%;
+    margin-bottom: 70px;
+    }
+
+    .currently {
+      
+    }
 
