@@ -183,20 +183,16 @@ font-weight: 700;
 padding-right: 70px;
 }
 
-
-#form_div {
-    padding-left: 
-}
-
 #opening_hours {
     text-align: center;
     font-weight: 700;
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 #opening_times > p {
     text-align: center;
-    padding: 5px;
+    font-size: large;
     font-weight: 600;
 }
 
@@ -239,6 +235,6 @@ padding-right: 70px;
         background-color: #a0c1d1;
     }
 
-    .email { font-size: 30px; text-decoration: none; }
+    #jsemail { font-size: 30px; text-decoration: none; }
     .phone { font-size: 30px; text-decoration: none; }
     .map { font-size: 30px; text-decoration: none; }
