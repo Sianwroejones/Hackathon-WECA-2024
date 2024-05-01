@@ -157,3 +157,51 @@ body {
 }
 
 
+/*--------------------Contact*/
+#form_div {
+    background-color: #dadff7;  
+    justify-content: center; }
+
+#message {
+    margin-top: 25px;
+}
+
+#contact_title {
+text-align: center;
+font-weight: 700;
+}
+
+#opening_hours {
+    text-align: center;
+    font-weight: 700;
+}
+
+#opening_border > p {
+    text-align: center;
+    padding-top: 10px;
+}
+
+#border_div{
+    background-color: white;
+}
+#dropdown_form {
+    width: 33%;
+    margin-right: auto;
+    margin-top: 25px;
+
+}
+
+#form_button {
+    transition-duration: 0.3s;
+  }
+  
+  #form_button:hover {
+    background-color:rgba(225, 198, 210, 1);
+    color:#232c33;
+    font-weight:500;
+  }
+
+  #submit {
+    margin-left: auto;
+    margin-right: auto;
+  }
