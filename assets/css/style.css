@@ -156,4 +156,35 @@ body {
     
 }
 
+/*-----------------------------------------------gallery page */
 
+ /*-----------------------------------------------gallery page */
+
+.enquiries { 
+    padding-bottom: 40px; 
+    padding-top: 0px;
+ }
+ 
+ .bg-colour {
+     background-color: #E1C6D2;
+     padding-bottom: 10px;
+     padding-top: 10px;
+     width: 100%;
+     margin-bottom: 70px;
+     }
+ 
+     .sold {
+      color: red;
+      padding-bottom: 40px;
+     }
+ 
+     @media only screen and (max-width: 767px){
+         .row {
+             flex-wrap: wrap;
+         }
+         .col {
+             flex: 0 0 100%;
+             max-width:100%;
+         }
+     }
+ 
