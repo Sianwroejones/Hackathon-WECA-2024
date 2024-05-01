@@ -171,8 +171,7 @@ body {
     font-size: 30px;
   }
 #form_div {
-    
-    justify-content: center; }
+     justify-content: center; }
 
 #message {
     margin-top: 25px;
@@ -181,6 +180,7 @@ body {
 #contact_title {
 text-align: center;
 font-weight: 700;
+padding-right: 70px;
 }
 
 
@@ -194,10 +194,10 @@ font-weight: 700;
     padding-top: 20px;
 }
 
-#opening_border > p {
+#opening_times > p {
     text-align: center;
-    padding: 10px;
-    font-weight: 500;
+    padding: 5px;
+    font-weight: 600;
 }
 
 #border_div{
@@ -219,8 +219,8 @@ font-weight: 700;
   }
 
   #submit {
-    margin-left: auto;
-    margin-right: auto;
+    padding-left: 5px;
+    padding-top: 12px;
   }
 
 #map {
