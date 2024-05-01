@@ -158,8 +158,20 @@ body {
 
 
 /*--------------------Contact*/
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+  }
+  
+  .flex-container > div {
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
 #form_div {
-    background-color: #dadff7;  
+    
     justify-content: center; }
 
 #message {
@@ -171,18 +183,28 @@ text-align: center;
 font-weight: 700;
 }
 
+
+#form_div {
+    padding-left: 20px;
+}
+
 #opening_hours {
     text-align: center;
     font-weight: 700;
+    padding-top: 20px;
 }
 
 #opening_border > p {
     text-align: center;
-    padding-top: 10px;
+    padding: 20px;
 }
 
 #border_div{
     background-color: white;
+}
+
+#form {
+    padding: 20px;
 }
 #dropdown_form {
     width: 33%;
@@ -205,3 +227,16 @@ font-weight: 700;
     margin-left: auto;
     margin-right: auto;
   }
+
+#map {
+    padding: 20px;
+}
+
+#text {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    
+
+}
