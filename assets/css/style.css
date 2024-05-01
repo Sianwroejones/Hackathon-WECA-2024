@@ -179,7 +179,6 @@ body {
     margin-bottom: 70px;
     }
 
-    .currently {
-      
-    }
-
+.sold {
+    color: red
+}
