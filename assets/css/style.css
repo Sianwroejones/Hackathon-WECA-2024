@@ -185,7 +185,7 @@ font-weight: 700;
 
 
 #form_div {
-    padding-left: 20px;
+    padding-left: 
 }
 
 #opening_hours {
@@ -196,7 +196,8 @@ font-weight: 700;
 
 #opening_border > p {
     text-align: center;
-    padding: 20px;
+    padding: 10px;
+    font-weight: 500;
 }
 
 #border_div{
@@ -205,12 +206,6 @@ font-weight: 700;
 
 #form {
     padding: 20px;
-}
-#dropdown_form {
-    width: 33%;
-    margin-right: auto;
-    margin-top: 25px;
-
 }
 
 #form_button {
@@ -238,5 +233,12 @@ font-weight: 700;
     justify-content: space-around;
     margin: 10px;
     
+    }
 
-}
+    #form {
+        background-color: #a0c1d1;
+    }
+
+    .email { font-size: 30px; text-decoration: none; }
+    .phone { font-size: 30px; text-decoration: none; }
+    .map { font-size: 30px; text-decoration: none; }
