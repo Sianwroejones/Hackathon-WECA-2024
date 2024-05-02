@@ -14,7 +14,7 @@
 
 - [Validation ]
 
-- [Contact Information]
+- Responsivness 
 
 ## Project Overview
 
@@ -51,13 +51,9 @@ This project is a a website for the artist Jenny saville, the site is made to sh
 
 - all files contain a footer with social media profiles links. 
 
-- `assets/`: Includes assets such as css files, images, gallery images, favicon, PDFs .
+- `assets/`: Includes assets such as css files, images, gallery images, gallery images, PDFs .
 
   - Included in this folder are favicon images for various device resolutions.
-
-  - In downloadable CV in PDF format can be found here.
-
-      **`cv/`**: Contains a downloadable CV in PDF format.
       
           **`favicon/`**: Different resolutions have different favicons used on devices.
           
@@ -79,21 +75,44 @@ The user can access the content via a web browser
 - favicon by Surang Lineal: https://www.flaticon.com/free-icon/coding_3242120?term=coding&related_id=3242120
 
 # Image source: 
-- Header image: 
-    Photo by TimSon Foox: https://www.pexels.com/photo/circuit-board-2182863/
+- in home page
+all carasoul pictice are from google images
+https://www.google.com/search?sca_esv=f977441fd745688c&sca_upv=1&sxsrf=ACQVn0-n3pLjBm1efvPj1uUsFn4MuWJaLg:1714654887553&q=jenny+saville&uds=AMwkrPvbXQyDIw-OclOUgUJ9r1fLId5Orci8ehAkuZp6YpgOvx9tXhhE6yujrYvtyXhVk1ns1r3EWZkWSosQTraiWmwNKXcZVNbcfjJu6CKY8WLam2YoQvjx76Y-vE1nIz-JclCTJiqKLJyQQ2yxZRmIoJ21GLplpWilZXknHJQs8BXVt7CDIYJjQDb3kYDcFrqhR9XsP3vCHLShcL4JdwdPl5-I9t39FxH2rgRhXbAVb6ddksNcl6DS3UJPpNsUTft4tk8YCQGs76lQ5YgMDMWPzzfGq6w4IYsUYM9HQOvzef7fgutf2Nc&udm=2&prmd=ivnmbtz&sa=X&ved=2ahUKEwiMo_Cbg--FAxV9S0EAHUUKA0oQtKgLegQIChAB&biw=1920&bih=993&dpr=1
 
-- Profile image: 
-    Is of my self.
 
-- Contact background image: 
-    Photo by Henry  & Co.: https://www.pexels.com/photo/white-painted-wall-1939485/
+-gallery page
+Red Stare 
+https://gagosian.com/exhibitions/2011/jenny-saville-continuum/
+Pink stare
+https://harrytoller.art.blog/2018/09/24/my-obsession-with-red/
+Bleach 
+https://www.artnet.com/artists/jenny-saville/bleach-a-pkGwWHvS2yMrFAm_R8wZ4w2
+Rosetta/reverse/fulcrum/the plan /closed contact
+https://www.re-thinkingthefuture.com/architectural-community/a7656-jenny-saville-10-iconic-artworks/
+Entry
+https://www.wikiart.org/en/jenny-saville/entry-2005
+closed contact
 
 ## Validation
-- All 4 files including index.html, resume.html, contact.html and style.css have been validated by https://jigsaw.w3.org/css-validator/validator all files have passed the validation 
+- All 4 files including index.html, Galley.html, contact.html and style.css have been validated by https://jigsaw.w3.org/css-validator/validator all files have passed the validation 
 
-## Contact Information
-For inquiries or further information, contact:
+## Responsiveness
+Site is responsive>=700px	Good 	Good	Good	"Doesn't look good
+will fix"	Good	Good	Good	Good	
+Site is responsive>=699px	Good 	Good 	Good 	"Doesn't look good
+will fix"	Good	Good	Good	Good	
+Links/URLs work	Good 	Good 	Good 	"Doesn't look good
+will fix"	Good	Good	Good	Good	
+Images work	Good 	Good 	Good 	"Doesn't look good
+will fix"	Good 	Good	Good	Good	
+Renders as expected 	Good 	Good 	Good 	"Doesn't look good
+will fix"	Good	Good	Good	Good	
+									
+BROWSER COMPATIBILITY									NOTES
+	Chrome	Edge	Firefox	Safari	Opera	IE			
+INTENDED APPEARANCE?	Good	Good	Good	Good	Good	Good			All seemed good.
+INTENDED RESPONSIVENESS	Good 	Good	Good	Good 	Good	Good			
 
-Name: Walid (Will) Gailey-White
-Email: walidwillwhite@gmail.com
+- Lighthouse test 98% on desktops 93% on other devices
+									
 
