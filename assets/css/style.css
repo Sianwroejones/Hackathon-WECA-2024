@@ -109,6 +109,8 @@
     width: 100px;
     height: 300px;
     margin-top: 10px;
+    margin-top: 50px;
+    margin-left: 100px;
 }
 .opening-hours{
     margin-top: 20px;
@@ -124,8 +126,8 @@
 .bg-contact-color {
     background-color:#bacbba ;
     padding: 10px;
-
 }
+
 /*-----------------------------------------------footer*/
 html,body {
     height: 100%;
@@ -134,7 +136,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
-    /*font-family*/
+    font-family:"Roboto", sans-serif;
 }
 .footer {
     background-color: #3a3d41;
