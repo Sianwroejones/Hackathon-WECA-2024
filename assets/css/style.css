@@ -69,6 +69,26 @@
     padding-bottom: 40px;
     
 }
+/*-----------------------------------------------gallery page */
+
+.enquiries { 
+    padding-bottom: 40px; 
+    padding-top: 0px;
+ }
+ 
+ .bg-colour {
+    background-color: #E1C6D2;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 100%;
+    margin-bottom: 70px;
+ }
+ 
+.sold {
+    color: red;
+    padding-bottom: 40px;
+}
+
 /*-----------------------------------------------contact page*/
 
 .contact-details{
@@ -89,6 +109,8 @@
     width: 100px;
     height: 300px;
     margin-top: 10px;
+    margin-top: 50px;
+    margin-left: 100px;
 }
 .opening-hours{
     margin-top: 20px;
@@ -104,8 +126,8 @@
 .bg-contact-color {
     background-color:#bacbba ;
     padding: 10px;
-
 }
+
 /*-----------------------------------------------footer*/
 html,body {
     height: 100%;
@@ -114,7 +136,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
-    /*font-family*/
+    font-family:"Roboto", sans-serif;
 }
 .footer {
     background-color: #3a3d41;
@@ -221,35 +243,15 @@ body {
     }  
 }
 
-/*-----------------------------------------------gallery page */
-
- /*-----------------------------------------------gallery page */
-
-.enquiries { 
-    padding-bottom: 40px; 
-    padding-top: 0px;
- }
+/*-----------------------------------------------media gallery page */
  
- .bg-colour {
-     background-color: #E1C6D2;
-     padding-bottom: 10px;
-     padding-top: 10px;
-     width: 100%;
-     margin-bottom: 70px;
-     }
- 
-     .sold {
-      color: red;
-      padding-bottom: 40px;
-     }
- 
-     @media only screen and (max-width: 767px){
-         .row {
-             flex-wrap: wrap;
-         }
-         .col {
-             flex: 0 0 100%;
-             max-width:100%;
-         }
-     }
+@media only screen and (max-width: 767px){
+    .row {
+        flex-wrap: wrap;
+    }
+    .col {
+        flex: 0 0 100%;
+        max-width:100%;
+    }
+}
  
