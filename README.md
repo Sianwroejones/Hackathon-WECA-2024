@@ -1,1 +1,0 @@
-# Hackathon-WECA-2024
